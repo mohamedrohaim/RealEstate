@@ -21,9 +21,9 @@ namespace DataAccessLayer.Repository
 			this.dbSet = _context.Set<T>();
 
 		}
-		public void Add(T entity)
+		public async Task AddAsync(T entity)
 		{
-			dbSet.Add(entity);
+			await dbSet.AddAsync(entity);
 			
 		}
 
@@ -32,7 +32,7 @@ namespace DataAccessLayer.Repository
 			dbSet.Remove(entity);
 		}
 
-		public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includePropererities = null)
+		public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includePropererities = null)
 		{
 			IQueryable<T> query = dbSet;
 			if (filter != null)
@@ -46,10 +46,11 @@ namespace DataAccessLayer.Repository
 					query = query.Include(includeProp);
 				}
 			}
-			return query.ToList();
+			var result=await query.ToListAsync();
+			return result;
 		}
 
-		public T? GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includePropererities = null)
+		public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter, string? includePropererities = null)
 		{
 			IQueryable<T> query = dbSet;
 			if (includePropererities != null)
@@ -73,11 +74,14 @@ namespace DataAccessLayer.Repository
 			}
 			query = query.Where(filter);
 
-			return query.FirstOrDefault();
+			var result= await query.FirstOrDefaultAsync();
+			return result;
 		}
 
 		public void Update(T entity)
 		{
+			dbSet.Update(entity);
+
 			
 		}
 	}

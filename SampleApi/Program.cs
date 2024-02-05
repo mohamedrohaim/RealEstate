@@ -1,4 +1,7 @@
+using BusinessAccessLayer.IServices;
+using BusinessAccessLayer.Services;
 using DataAccessLayer.Data;
+using DataAccessLayer.Repository.IRepository;
 using DataAccessLayer.Repository.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System.Net.NetworkInformation;
@@ -18,6 +21,7 @@ namespace SampleApi
 				));
 
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			builder.Services.AddScoped<IUnitTypeService, UnitTypeService>();
 
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

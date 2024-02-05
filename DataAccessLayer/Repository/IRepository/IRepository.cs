@@ -9,9 +9,9 @@ namespace DataAccessLayer.Repository.IRepository
 {
 	public interface IRepository<T> where T : class
 	{
-		T? GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includePropererities = null);
-		IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includePropererities = null);
-		void Add(T entity);
+		Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter, string? includePropererities = null);
+		Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string? includePropererities = null);
+		Task AddAsync(T entity);
 		void Delete(T entity);
 		void Update(T entity);
 

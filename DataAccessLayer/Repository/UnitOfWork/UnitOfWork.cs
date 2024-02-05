@@ -22,15 +22,10 @@ namespace DataAccessLayer.Repository.UnitOfWork
 	   public IUnitTypeRepository unitType { get; private set; }
 
 
-		public void Save()
+		public async Task SaveAsync()
 		{
-			_context.SaveChanges();
+			await _context.SaveChangesAsync();
 
-		}
-
-		void IUnitOfWork.Save()
-		{
-			throw new NotImplementedException();
 		}
 	}
 }

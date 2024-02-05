@@ -11,6 +11,6 @@ namespace DataAccessLayer.Repository.UnitOfWork
 	{
 		IUnitTypeRepository unitType { get; }
 		
-		void Save();
+		public Task SaveAsync();
 	}
 }
