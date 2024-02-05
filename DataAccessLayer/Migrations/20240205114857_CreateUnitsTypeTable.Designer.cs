@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240205112542_CreateUnitsTypeTable")]
+    [Migration("20240205114857_CreateUnitsTypeTable")]
     partial class CreateUnitsTypeTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("DataAccessLayer.Models.UnitTypes", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.UnitType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -44,7 +44,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("types");
+                    b.ToTable("unitTypes");
                 });
 #pragma warning restore 612, 618
         }

@@ -22,7 +22,7 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("DataAccessLayer.Models.UnitTypes", b =>
+            modelBuilder.Entity("DataAccessLayer.Models.UnitType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("types");
+                    b.ToTable("unitTypes");
                 });
 #pragma warning restore 612, 618
         }

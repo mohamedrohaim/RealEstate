@@ -1,7 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Reflection;
-
+﻿using DataAccessLayer.Models;
+using Microsoft.EntityFrameworkCore;
 namespace DataAccessLayer.Data
 {
 	public class AppDbContext : DbContext{
@@ -15,6 +13,6 @@ namespace DataAccessLayer.Data
 		}
 
 
-		public DbSet<Models.UnitTypes> types { get; set; }
+		public DbSet<UnitType> unitTypes { get; set; }	
 	}
 }

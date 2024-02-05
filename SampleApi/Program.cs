@@ -1,4 +1,5 @@
 using DataAccessLayer.Data;
+using DataAccessLayer.Repository.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using System.Net.NetworkInformation;
 
@@ -15,6 +16,8 @@ namespace SampleApi
 			options.UseSqlServer(
 				builder.Configuration.GetConnectionString("DefaultConnection")
 				));
+
+			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
