@@ -1,0 +1,12 @@
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
