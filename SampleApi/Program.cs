@@ -1,3 +1,4 @@
+using ApplicationLayer.Helpers;
 using BusinessAccessLayer.IServices;
 using BusinessAccessLayer.Services;
 using DataAccessLayer.Data;
@@ -22,6 +23,7 @@ namespace SampleApi
 
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 			builder.Services.AddScoped<IUnitTypeService, UnitTypeService>();
+			builder.Services.AddAutoMapper(option=>option.AddProfile(new MapperProfile()));
 
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

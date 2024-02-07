@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RxmKFkXaE+2MdtqvjH1wQZbmSJHRVDpfQOssbYCkyf+8wg15OLUVEWQVIIW79DmCs3xIx+SoVVuftdzlV5U6xw==",
+  "dgSpecHash": "KfFxIFPMW0EjxI7X9R5pJdefIwrwpVlxiX6/JzjMGjnTbeF3a2Kbjlnv08L6gY2Ld1y/BxFHXrVqrX+uSn3RGA==",
   "success": true,
   "projectFilePath": "F:\\Esol\\Sample Asp.net core + react +typescript + devExtream\\SampleProject\\SampleApi\\SampleApi\\ApplicationLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tiger\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\tiger\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\tiger\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\tiger\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\tiger\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.26\\microsoft.entityframeworkcore.6.0.26.nupkg.sha512",

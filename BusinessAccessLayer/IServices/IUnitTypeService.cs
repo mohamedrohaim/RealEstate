@@ -13,8 +13,8 @@ namespace BusinessAccessLayer.IServices
 	{
 		public Task<IEnumerable<UnitType>> GetUnitTypes();
 		public Task<UnitType?> GetUnitAync(Expression<Func<UnitType,bool>> expression);
-		public Task CreateAsync(UnitType unitType);
-		public void Delete(int id);
+		public Task<UnitType> CreateAsync(UnitType unitType);
+		public Task Delete(UnitType unitType);
 		public Task Update(UnitType unitType);
 	}
 	

@@ -19,16 +19,18 @@ namespace BusinessAccessLayer.Services
 
 		}
 
-		public async Task CreateAsync(UnitType unitType)
+		public async Task<UnitType> CreateAsync(UnitType unitType)
 		{
 			await _unitOfWork.unitType.AddAsync(unitType);
 			await _unitOfWork.SaveAsync();
-			
+			return unitType;
 		}
 
-		public void Delete(int id)
+		public async Task Delete(UnitType unitType)
 		{
-			throw new NotImplementedException();
+
+			_unitOfWork.unitType.Delete(unitType);
+			await _unitOfWork.SaveAsync();
 		}
 
 		public async Task<UnitType?> GetUnitAync(Expression<Func<UnitType, bool>> expression)

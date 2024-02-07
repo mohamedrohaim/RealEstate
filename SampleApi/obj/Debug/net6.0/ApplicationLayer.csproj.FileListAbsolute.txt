@@ -70,3 +70,5 @@ F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\Sampl
 F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\SampleApi\obj\Debug\net6.0\ApplicationLayer.pdb
 F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\SampleApi\obj\Debug\net6.0\ApplicationLayer.genruntimeconfig.cache
 F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\SampleApi\obj\Debug\net6.0\ref\ApplicationLayer.dll
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\SampleApi\bin\Debug\net6.0\AutoMapper.dll
+F:\Esol\Sample Asp.net core + react +typescript + devExtream\SampleProject\SampleApi\SampleApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
